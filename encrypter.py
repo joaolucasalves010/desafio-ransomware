@@ -5,7 +5,7 @@ import pyaes
 
 file_name = 'teste.txt'
 
-file = open(file_name, "rb") # Abri o arquivo e lê o conteúdo
+file = open(file_name, "rb") 
 
 file_data = file.read() # recebe o conteúdo dentro do arquivo
 
